@@ -1,0 +1,30 @@
+name: tape
+
+channels:
+  - conda-forge
+  - anaconda
+  - bioconda
+
+dependencies:
+  - python
+  - jupyterlab=3
+  - pytorch<1.5
+  - torchvision
+  - tensorboardX
+  - scipy
+  - lmdb
+  - boto3
+  - requests
+  - filelock
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn=0.11.0
+  - scikit-learn
+  - scipy
+  - tqdm
+  - biopython
+  - ipywidgets=7.6.2
+  - pip
+  - pip:
+    - tape_proteins
