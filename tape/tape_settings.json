@@ -1,0 +1,12 @@
+{
+	"tape": {
+		"input_filename": "../data/MVP/NonEnzymes_Enzymes_5000.fasta",
+		"output_filename": "output_5000",
+		"pretrained_model": "bert-base",
+		"model": "transformer",
+		"tokenizer": "iupac",
+		"batch_size": "4",
+		"distributed": false,
+		"full_sequence_embed": false
+	}
+}
