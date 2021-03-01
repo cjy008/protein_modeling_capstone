@@ -1,7 +1,12 @@
 Protein Modeling Capstone
 =========================== 
 
-[TOC]
+Table of Contents
+===========================
+* [Getting Started](#getting-started)
+	* [Creating the conda environment](#creating-the-conda-environment)
+	* [Activate the conda environment](#activate-the-conda-environment)
+	* [Deactivating the environment](#deactivating-the-environment)
 
 # Getting Started
 ## Creating the conda environment
