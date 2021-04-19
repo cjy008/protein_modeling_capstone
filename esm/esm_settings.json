@@ -1,0 +1,6 @@
+{
+	"esm": {
+		"input_filename": "../data/esm/Enzymes_test_esm.json",
+		"output_filename": "Enzymes_test_esm_output"
+	}
+}
