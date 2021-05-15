@@ -18,7 +18,7 @@ for in_file, out_file in filenames:
         json.dump(data, jsonFile, indent=4)
 
 
-    rc = subprocess.call("./run_tape_batch_job.sh", shell=True)
+    rc = subprocess.call("sh ./run_tape_batch_job.sh", shell=True)
 
     if rc != 0:
     	print(f"Batch job script failed on {in_file}.")
