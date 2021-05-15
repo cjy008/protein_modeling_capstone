@@ -18,11 +18,11 @@ for in_file, out_file in filenames:
         json.dump(data, jsonFile, indent=4)
 
 
-    rc = call("./run_tape_batch_job.sh", shell=True)
+    rc = subprocess.call("./run_tape_batch_job.sh", shell=True)
 
     if rc != 0:
-   		printf("Batch job script failed on {in_file}.")
-   	else:
-   		printf("Batch job script completed on {in_file}. Moving on...")
+    	print(f"Batch job script failed on {in_file}.")
+    else:
+    	print(f"Batch job script completed on {in_file}. Moving on...")
 
-printf("Completed!")
+print(f"Completed!")
